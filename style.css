@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  float: none;
+  min-width: 400px;
+}
+header {
+  background-color: aqua;
+  height: 60px;
+  border-bottom: 2px solid red;
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2013/05/201.png);
+}
+.container {
+  height: 20px;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+}
+.list {
+  list-style: none;
+  padding-right: 10px;
+  float: left;
+}
+.list a:hover {
+  color: red;
+}
+#tittle {
+  float: left;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 10px 0px 10px 20px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  margin: 10px 20px 10px 0px;
+  float: right;
+}
+#section {
+  background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  color: white;
+  margin-top: -1.3em;
+  text-align: center;
+  height: 150px;
+  padding: 0px 20px;
+}
+#subscribe {
+  height: 100px;
+  background-color: dimgrey;
+  padding: 0px 80px;
+}
+#subscribe h2 {
+  float: left;
+  width: 45%;
+  margin-top: 30px;
+  display: inline;
+  text-align: center;
+}
+
+#form-1 input[type="submit"] {
+  height: 29px;
+  border: 2px solid orangered;
+  color: aliceblue;
+  background-color: orangered;
+}
+#form-1 input[type="email"] {
+  height: 23px;
+  border: 2px solid white;
+}
+#form-1 {
+  float: right;
+  display: inline;
+  text-align: center;
+  width: 50%;
+  margin-top: 30px;
+}
+.box {
+  text-align: center;
+  float: left;
+  width: 33.3%;
+  display: inline;
+}
+.box p {
+  padding: 0px 20px;
+}
+.box h2 {
+  font-family: "Sora", sans-serif;
+}
+
+#form-2{
+ padding: 5px;
+}
+#form-2 input{
+  width: 100px;
+}
+#sform{
+  text-align: center;
+}
+.b_foot {
+  height: 750px;
+}
+footer {
+  text-align: center;
+  background-color: dimgray;
+  color: whitesmoke;
+  width: 100%;
+}
+.para{
+  background-color:rgb(236, 236, 236);
+  border: 2px solid rgb(185, 184, 184);
+  margin: 10px;
+  padding: 20px;
+}
+@media (min-height: 1200px){
+  .b_foot {
+    height: 1050px;
+  }
+}
+@media (max-width: 900px) {
+  #subscribe {
+    margin: 0;
+    height: 140px;
+    text-align: center;
+  }
+  #subscribe h2 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: none;
+  }
+  #form-1 {
+    float: none;
+    width: 100%;
+  }
+  #subscribe [type="submit"] {
+    width: 177px;
+    margin-top: 2px;
+  }
+  .box {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  .b_foot {
+    height: 650px;
+  }
+  
+}
+#abt {
+  float: left;
+  display: inline;
+  width: 69%;
+  margin-left: 20px;
+}
+.side {
+  display: inline;
+  float: right;
+  width: 15%;
+  border: 2px solid dimgray;
+  background-color: dimgray;
+  color: white;
+  padding-left: 5px;
+  margin: 30px 55px;
+}
+
+@media (min-width: 1000px) {
+  #form-2 input{
+    width:100px;
+  }
+}
+@media (max-width: 1000px) {
+  #abt {
+    float: left;
+    display: inline;
+    width: 60%;
+    margin-left: 20px;
+  }
+  .side {
+    display: inline;
+    float: right;
+    width: 20%;
+    border: 2px solid dimgray;
+    background-color: dimgray;
+    color: white;
+    padding-left: 5px;
+    margin: 30px 55px;
+  }
+  
+}
+@media (max-width: 699px) {
+  #abt {
+    float: none;
+    display: block;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  .side {
+    display: block;
+    width: auto;
+    padding: 20px;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+  #form-2 input{
+    width:auto;
+  }
+  footer{
+    position: relative;
+  }
+  .b_foot {
+    height: 750px;
+  }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+  
+  #abt {
+    float: left;
+    display: inline;
+    width: 55%;
+  }
+  .side {
+    display: inline;
+    float: right;
+    width: 20%;
+    padding: 5px;
+  }
+}
